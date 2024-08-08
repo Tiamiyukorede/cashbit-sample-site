@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  margin: auto 10%;
+}
+.nav {
+  margin-top: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+  padding: 30px 0;
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+li {
+  padding: 10px 25px 0 25px;
+  font-size: 0.9em;
+}
+.clickable {
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+}
+.login-btn {
+  width: 30%;
+  padding: 5% 5%;
+
+  border: none;
+  background-color: #ffffff;
+}
+.start-btn {
+  background-color: #ffffff;
+  border: solid black;
+  border-radius: 10px;
+  width: 50%;
+  padding: 5% 5%;
+}
+.top-container {
+  margin-top: 3em;
+}
+
+.top-container h1 {
+  width: 8em;
+  font-size: 4em;
+  font-weight: 700;
+  color: rgb(16, 14, 47);
+}
+.top-container p {
+  margin-top: 1em;
+  width: 350px;
+  font-size: 0.9em;
+}
+.btn-get-started {
+  margin-top: 3em;
+  background-color: #ffffff;
+  border: solid black;
+  border-radius: 10px;
+  padding: 15px 30px;
+}
+.top-section {
+  margin-top: 2em;
+}
+small {
+  margin: auto 35%;
+  text-align: center;
+}
+.flex-logo {
+  margin-top: 2em;
+  display: flex;
+  justify-content: space-between;
+}
+.middle-container {
+  margin-top: 6em;
+  text-align: center;
+}
+.middle-container h2 {
+  color: rgb(61, 61, 78);
+  margin: auto 30%;
+  width: 13em;
+  font-size: 2.5em;
+}
+.middle-container .b2b {
+  margin: 2% 25%;
+  width: 42em;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.2em;
+}
+.always-fresh {
+  margin: auto 25%;
+  width: 42em;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.3em;
+}
+
+.mid-section {
+  display: flex;
+  justify-content: space-between;
+  margin: 2% 25%;
+  width: 42em;
+}
+
+.mid-section span {
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.mid-section p {
+  padding-top: 15%;
+  font-size: 0.8em;
+  width: 12em;
+}
+.explore {
+  margin: 3em 0;
+  background-color: #ffffff;
+  border: solid black;
+  border-radius: 10px;
+  padding: 15px 30px;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
